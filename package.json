@@ -1,0 +1,35 @@
+{
+  "name": "node-express-jwt",
+  "version": "1.0.0",
+  "description": "Boilerplate securing restful API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonbrandoo/node-express-jwt.git"
+  },
+  "keywords": [
+    "Restful",
+    "API"
+  ],
+  "author": "Jason",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasonbrandoo/node-express-jwt/issues"
+  },
+  "homepage": "https://github.com/jasonbrandoo/node-express-jwt#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.4.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.4"
+  }
+}
